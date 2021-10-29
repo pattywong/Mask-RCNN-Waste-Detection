@@ -3,6 +3,7 @@ The implementation of waste detection with instance segmentation for a robotic s
 [Mask R-CNN](https://arxiv.org/abs/1703.06870) is extended from [Matterport - Mask R-CNN for Object Detection and Segmentation](https://github.com/matterport/Mask_RCNN). This model is based on Feature Pyramid Network and a ResNet101 backbone, that generates bounding boxes, segmentation masks, and object classes for each instance of a waste object in the image. 
 
 ![result_img](/assets/result_img.png)
+![result_img](/assets/result_img2.png)
 
 
 The repository includes:
