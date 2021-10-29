@@ -24,10 +24,27 @@ The repository includes:
 ```
 conda-env create -n mrcnn -f mrcnn.yml
 ```
-## Dataset and annotations
+## Dataset and Annotations
 An open-source annotation software , [Make Sense](https://www.makesense.ai/), from [Piotr - makesense.ai](https://github.com/SkalskiP/make-sense) is used to generate .JSON annotation files for Dataset images.
 ![raw_img](/assets/raw_img.jpg)
 ![labeled_img](/assets/labeled_img.png)
+
+## Training model 
+In `waste_main.py`, the code provides options of training on the network where parameters are modified in `/mrcnn/waste_config.py`.
+```
+# Train a new model starting from pre-trained COCO weights
+python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=coco
+
+# Train a new model starting from ImageNet weights
+python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=imagenet
+
+# Continue training a model that you had trained earlier
+python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=/path/to/weights.h5
+
+# Continue training the last model you trained. This will find
+# the last trained weights in the model directory.
+python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=last
+```
 
 ## Detection
 ```
