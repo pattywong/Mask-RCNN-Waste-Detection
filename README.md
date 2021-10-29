@@ -25,6 +25,7 @@ conda-env create -n mrcnn -f mrcnn.yml
 
 ## Dataset and Annotations
 An open-source annotation software , [Make Sense](https://www.makesense.ai/), from [Piotr - makesense.ai](https://github.com/SkalskiP/make-sense) is used to generate .JSON annotation files for Dataset images.
+
 ![raw_img](/assets/raw_img.jpg)
 ![labeled_img](/assets/labeled_img.png)
 
@@ -49,8 +50,9 @@ python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=last
 
 ## Detection
 ```inspect_waste_model.ipynb``` provides step by step detection with visualization.
-
 ## Application of AI in a robotic sorting system
+The model enables a robotic arm to be able to pick a waste object and put it in the right bin by localizing the positions to get their real-world poses of each waste object and classifying a type of waste whether it is a bottle, a snack bag, or a can with its alignments.
+
 ![robotics_sorting_system](/assets/robotic_sorting_system.png)
 ![bins](/assets/bins.jpeg)
 
