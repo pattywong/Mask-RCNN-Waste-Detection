@@ -24,7 +24,7 @@ The repository includes:
 conda-env create -n mrcnn -f mrcnn.yml
 ```
 ## Dataset and annotations
-An open-source annotation software, [Make Sense](https://www.makesense.ai/), is used to generate .JSON annotation files for Dataset images.
+An open-source annotation software , [Make Sense](https://www.makesense.ai/), from [Piotr - makesense.ai](https://github.com/SkalskiP/make-sense) is used to generate .JSON annotation files for Dataset images.
 
 
 ## Detection
@@ -33,5 +33,5 @@ conda-env create --name mrcnn --file \path\to\mrcnn.yml
 ```
 
 ## Application of AI in a robotic sorting system
-![This is an image](/assets/Capture_Bin.jpg)
+![This is an image](/assets/Capture_Bin.png)
 
