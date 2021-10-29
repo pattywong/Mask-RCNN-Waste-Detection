@@ -54,3 +54,16 @@ conda-env create --name mrcnn --file \path\to\mrcnn.yml
 ## Application of AI in a robotic sorting system
 ![Capture_Bin](/assets/Capture_Bin.png)
 
+## Citation
+```
+@misc{matterport_maskrcnn_2017,
+  title={Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow},
+  author={Waleed Abdulla},
+  year={2017},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/matterport/Mask_RCNN}},
+}
+```
+
+
