@@ -51,7 +51,8 @@ python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=last
 ```inspect_waste_model.ipynb``` provides step by step detection with visualization.
 
 ## Application of AI in a robotic sorting system
-![Capture_Bin](/assets/Capture_Bin.png)
+![robotics_sorting_system](/assets/robotics_sorting_system.png)
+![bins](/assets/bins.png)
 
 ## Citation
 ```
