@@ -47,12 +47,13 @@ python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=/path/to/wei
 # the last trained weights in the model directory.
 python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=last
 ```
+![training_loss](/assets/training_loss.png)
 
 ## Detection
 ```inspect_waste_model.ipynb``` provides step by step detection with visualization.
 ## Application of AI in a robotic sorting system
 The model enables a robotic arm to be able to pick a waste object and put it in the right bin by localizing the positions to get their real-world poses of each waste object and classifying a type of waste whether it is a bottle, a snack bag, or a can with its alignments. The model achieved 0.91 mAP on test images of unseen waste objects.
-
+[Link](https://drive.google.com/file/d/10tBnl9jbO7x6e_eqKj4Gk4imgKbYP2JA/view?usp=sharing) to see how it works.
 ![robotics_sorting_system](/assets/robotic_sorting_system.png)
 ![bins](/assets/bins.jpeg)
 
