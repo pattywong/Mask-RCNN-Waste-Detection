@@ -102,6 +102,10 @@ Training configuration in `/mrcnn/waste_config.py`.
     GRADIENT_CLIP_NORM = 5.0
 }
 ```
+## Using TensorBoard to visualize model learning progress at `localhost:6006`
+```
+tensorboard --logdir=logs
+```
 
 ![training_loss](/assets/training_loss.png)
 
